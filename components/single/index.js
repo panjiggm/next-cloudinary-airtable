@@ -41,7 +41,7 @@ const Single = () => {
       deal,
     };
 
-    console.log("SUBMIT", fields);
+    // console.log("SUBMIT", fields);
 
     try {
       await fetch("/api/addSingle", {
